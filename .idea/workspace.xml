@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3fead07-029b-44a0-9519-b20ef6a8b6a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Final Project.iml" afterPath="$PROJECT_DIR$/.idea/Final Project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stressed_data.npy" afterPath="$PROJECT_DIR$/stressed_data.npy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unstressed_data.npy" afterPath="$PROJECT_DIR$/unstressed_data.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DummyInputGenerator.py" afterPath="$PROJECT_DIR$/DummyInputGenerator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scikit-quickstart.py" afterPath="$PROJECT_DIR$/scikit-quickstart.py" />
     </list>
@@ -25,8 +23,8 @@
     <SUITE FILE_PATH="coverage/Final Project$scikit_quickstart.coverage" NAME="scikit-quickstart Coverage Results" MODIFIED="1493150169732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Final$typing.coverage" NAME="typing Coverage Results" MODIFIED="1494738328164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Final Project$type.coverage" NAME="type Coverage Results" MODIFIED="1494704957111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Typing_game" />
-    <SUITE FILE_PATH="coverage/Final$DummyInputGenerator.coverage" NAME="DummyInputGenerator Coverage Results" MODIFIED="1494746129968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Final$scikit_quickstart.coverage" NAME="scikit-quickstart Coverage Results" MODIFIED="1494802290597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Final$DummyInputGenerator.coverage" NAME="DummyInputGenerator Coverage Results" MODIFIED="1494804055546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Final$scikit_quickstart.coverage" NAME="scikit-quickstart Coverage Results" MODIFIED="1494807166426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="scikit-quickstart.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scikit-quickstart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="314">
+              <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -61,8 +59,8 @@
       <file leaf-file-name="DummyInputGenerator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DummyInputGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="71" column="51" lean-forward="false" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+            <state relative-caret-position="-726">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -824,16 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Typing_game/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="e#44#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stressed">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -850,10 +838,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="339" column="0" lean-forward="true" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typing_game/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#44#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DummyInputGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="71" column="51" lean-forward="false" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        <state relative-caret-position="-726">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -862,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scikit-quickstart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="314">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

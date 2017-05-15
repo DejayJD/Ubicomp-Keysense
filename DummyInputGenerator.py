@@ -27,7 +27,6 @@ class DummyInputGenerator:
         randomVals = []
         for i in range(len(self.sensors)):
             randomVals.append(random.randint(min, max))
-        randomVals.append(time.time())
         self.data_np.append(randomVals)
         self.target_np.append(self.stressed)
 
@@ -65,9 +64,10 @@ class DummyInputGenerator:
             print "Write Time: " + str(write_time)
 
     def outputNumpyData(self, record_time=True):
+        print self.data_np
         np.save(self.file_name + ".npy", self.data_np)
 
-filename = "stressed_data"
+filename = "unstressed_data"
 generator = DummyInputGenerator(filename, config.SENSORS)
-generator.iterateRandomSensorData(10000, 0, 500, 1000, "np")
+generator.iterateRandomSensorData(10000, 0, 0, 800, "np")
 generator.outputNumpyData()
